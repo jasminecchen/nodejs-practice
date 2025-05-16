@@ -1,0 +1,25 @@
+{
+  "name": "drizzle-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "migrate": "drizzle-kit migrate",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.15.2",
+    "drizzle-kit": "^0.31.1",
+    "nodemon": "^3.1.10"
+  }
+}
